@@ -1,7 +1,7 @@
 const btns = document.querySelectorAll(".feature__link");
 const lists = document.querySelectorAll(".feature-sub");
 
-btns.forEach((btn, index) => {
+btns.forEach((btn) => {
     btn.addEventListener("click", () => {
         btns.forEach((btnItem, idx) => {
             if (btn === btnItem) {
